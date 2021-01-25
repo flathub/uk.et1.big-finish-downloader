@@ -23,5 +23,5 @@ modules:
       - glib-compile-schemas /app/share/glib-2.0/schemas
     sources:
       - type: file
-        url: https://github.com/Emersont1/big-finish-downloader/releases/download/v1.0.1/bin.tar.gz
-        sha256: e5b079158ce6f02105d08e02a71d0efe5aab4cff4173a1e2cf4c70b976d948b0
+        url: https://github.com/Emersont1/big-finish-downloader/releases/download/v1.0.2/bin.tar.gz
+        sha256: 9931cd367dda519deb51f1e0e7050fba242361ab628ec5fc98fa752750b55d57
