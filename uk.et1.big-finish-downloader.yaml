@@ -9,7 +9,8 @@ finish-args:
   - --filesystem=home
   - --device=dri
   - --talk-name=org.freedesktop.secrets
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
 modules:
   - name: files
     buildsystem: simple
