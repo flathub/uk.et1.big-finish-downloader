@@ -1,6 +1,6 @@
 id: uk.et1.big-finish-downloader
 runtime: org.gnome.Platform
-runtime-version: '3.38'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: big-finish-downloader-gtk
 finish-args:
