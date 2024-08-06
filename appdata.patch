@@ -1,0 +1,38 @@
+--- ./share/appdata/uk.et1.big-finish-downloader.metainfo.xml	2021-01-28 13:56:23.000000000 +0530
++++ ./share/appdata/uk.et1.big-finish-downloader.metainfo.xml	2024-08-06 07:31:36.762707302 +0530
+@@ -4,29 +4,28 @@
+   
+   <name>Big Finish Downloader</name>
+   <summary>A GTK app to download your Big Finish Collection</summary>
+-  
++  <developer_name>Peter Taylor</developer_name>
+   <metadata_license>MIT</metadata_license>
+   <project_license>MIT</project_license>
+-  <icon type="remote">https://raw.githubusercontent.com/Emersont1/big-finish-downloader/main/icons/tardis.svg</icon>
+   <description>
+     <p>
+       This is a program downloads your titles from the big finish website into a folder of your choosing
+     </p>
+   </description>
+   <content_rating type="oars-1.1" />
+-  <url type="homepage">https://github.com/Emersont1/big-finish-downloader</url>
++  <url type="homepage">https://github.com/flathub/uk.et1.big-finish-downloader</url>
+   <releases>
+     <release version="1.1.0.0" date="2021-01-28"/>
+     <release version="1.0.3.0" date="2021-01-25"/>
+     <release version="1.0.2.0" date="2021-01-25"/>
+     <release version="1.0.1.0" date="2021-01-24"/>
+     <release version="1.0.0.3" date="2021-01-15"/>
+-	</releases>
++  </releases>
+   
+   <launchable type="desktop-id">uk.et1.big-finish-downloader.desktop</launchable>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/Emersont1/big-finish-downloader/main/screenshots/main_window.png</image>
++      <image>https://raw.githubusercontent.com/flathub/uk.et1.big-finish-downloader/master/uk.png</image>
+     </screenshot>
+   </screenshots>
+-</component>
+\ No newline at end of file
++</component>
