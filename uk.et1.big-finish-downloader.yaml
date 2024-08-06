@@ -15,16 +15,18 @@ modules:
   - name: files
     buildsystem: simple
     build-commands:
-      - tar -xvf bin.tar.gz
       - cp -r bin /app
       - cp -r lib /app
       - cp -r share /app
       - ls /app/bin
       - chmod 755 /app/bin/big-finish-downloader-gtk
       - glib-compile-schemas /app/share/glib-2.0/schemas
+      - mkdir -p /app/share/icons/hicolor/scalable/apps/
+      - mv /app/share/icons/hicolor/128x128/apps/uk.et1.big-finish-downloader.svg /app/share/icons/hicolor/scalable/apps/
     sources:
-      - type: file
+      - type: archive
         url: https://github.com/flathub/uk.et1.big-finish-downloader/releases/download/v1.1.0/bin.tar.gz
         sha256: 4f4874613a66300c36989913210f7ead6cf31c50b1927f50fd0977d1d9e2d8fd
-      - type: file
+        strip-components: 0
+      - type: patch
         path: appdata.patch
